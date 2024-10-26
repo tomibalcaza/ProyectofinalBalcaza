@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 2000px;
+}
+
+@import "partials/header";
+
+main{
+    .titulo{
+    text-align: center;
+    font-size: 45px;
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    }
+    .eslogan1{
+        text-align: center;
+        font-size: 20px;
+        font-family: "Black Ops One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 30px;
+    }
+    .contenedor2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+.imagenarnold{
+    height: 490px;
+    width: 200px;
+}
+
+.imagenronnie{
+    height: 400px;
+    width: 100px;
+}
+
+.imagentom{
+    height: 400px;
+}
+
+.padre{
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+    margin-left: 200px;
+    .hijo1{
+        padding-left: 100px;
+        padding-bottom: 30px;
+        .botonfooter{
+            margin-top: 10px;
+        }
+    }
+    .hijo2{
+        padding-left: 300px;
+        padding-bottom: 30px;
+    }
+    .registro{
+        color: black;
+        font-size: 20px;
+        font-family: "Black Ops One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+}
+
+main{
+    .grupo1{
+        display: flex;
+        flex-direction: row;
+        .ejercicio1{
+            margin-top: 50px;
+            margin-left: 300px;
+            .dominadas{
+                font-family: "Black Ops One", system-ui;
+                font-weight: 400;
+                font-style: normal;
+                margin-left: 20px;
+            } 
+            .dominadasespalda{
+                height: 250px;
+            }
+        }
+        .ejercicio2{
+            margin-top: 60px;
+            margin-left: 600px;
+            .remomancuerna{
+                    font-family: "Black Ops One", system-ui;
+                    font-weight: 400;
+                    font-style: normal;
+                    margin-left: 100px;
+            }
+            .remo1{
+                height: 200px;
+                margin-left: 150px;
+            }
+            .repeticiones1e{
+                margin-top: 10px;
+                margin-left: 180px;
+            }
+        } 
+    }
+    .grupo2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        .ejercicio3{
+            margin-top: 50px;
+            .remomaquina{
+                font-family: "Black Ops One", system-ui;
+                font-weight: 400;
+                font-style: normal;
+                margin-left: 10px;
+            }
+            .remo2{
+                height: 250px;
+                margin-left: 10px;
+            }
+            .repeticiones2e{
+                margin-left: 45px;
+            }
+        }
+        .ejercicio4{
+            margin-top: 50px;
+            .jalones{
+                font-family: "Black Ops One", system-ui;
+                font-weight: 400;
+                font-style: normal;
+                margin-left: 250px;
+            }
+            .jalonesalpecho{
+                height: 250px;
+                margin-left: 250px;
+            }
+            .repeticiones3e{
+                margin-top: 10px;
+                margin-left: 310px;
+            }
+        }
+    } 
+}
+
+.jalonesalpecho{
+    height: 260px;
+}
+
+
+main{
+    .grupo1{
+        .ejercicio1pecho{
+            margin-top: 50px;
+            margin-left: 300px;
+            .pressbanca{
+                font-family: "Black Ops One", system-ui;
+                font-weight: 400;
+                font-style: normal;
+            }
+            .press{
+                height: 250px;
+            }
+        }
+        .ejercicio2pecho{
+            margin-top: 50px;
+            margin-left: 500px;
+            .aperturamancuerna{
+                font-family: "Black Ops One", system-ui;
+                font-weight: 400;
+                font-style: normal;
+            }
+            .repeticiones1p{
+                margin-left: 150px;
+                margin-top: 10px;
+            }
+            .apertura{
+                height: 250px;
+                margin-left: 70px;
+            }
+        }
+    }
+    .grupo2{
+        .ejercicio3pecho{
+            margin-top: 50px;
+            .crucespolea{
+                font-family: "Black Ops One", system-ui;
+                font-weight: 400;
+                font-style: normal;
+                margin-left: 10px;
+            }
+            .cruces{
+                height: 250px;
+            }
+            .repeticiones2p{
+                margin-left: 50px;
+            }
+        }
+        .ejercicio4pecho{
+            margin-top: 50px;
+            .flexiones{
+                font-family: "Black Ops One", system-ui;
+                font-weight: 400;
+                font-style: normal;
+                margin-right: 10px;
+            }
+            .flexionesbrazos{
+                height: 250px;
+            }
+            .repeticiones3p{
+                margin-left: 50px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+
+main{
+    .grupo1{
+        .ejercicio1brazo{
+            margin-top: 50px;
+            margin-left: 300px;
+            .curlbicep{
+                font-family: "Black Ops One", system-ui;
+                font-weight: 400;
+                font-style: normal;
+                margin-left: 50px;
+            }
+            .curldebiceps{
+                height: 250px;
+            }
+            .repeticiones1b{
+                margin-top: 10px;
+                margin-left: 70px;
+            }
+        }
+        .ejercicio2brazo{
+            margin-top: 50px;
+            margin-left: 500px;
+            .bancoscott{
+                font-family: "Black Ops One", system-ui;
+                font-weight: 400;
+                font-style: normal;
+                margin-left: 60px;
+            }
+            .repeticiones2b{
+                margin-left: 70px;
+                margin-top: 10px;
+            }
+            .banco{
+                height: 250px;
+                margin-right: 40px;
+            }
+        }
+    }
+    .grupo2{
+        .ejercicio3brazo{
+            margin-top: 50px;
+            .extensiontriceps{
+                font-family: "Black Ops One", system-ui;
+                font-weight: 400;
+                font-style: normal;
+                margin-left: 85px;
+            }
+            .extension{
+                height: 250px;
+                margin-left: 110px;
+            }
+            .repeticiones3b{
+                margin-left: 140px;
+            }
+        }
+        .ejercicio4brazo{
+            margin-top: 50px;
+            .pullover{
+                font-family: "Black Ops One", system-ui;
+                font-weight: 400;
+                font-style: normal;
+                margin-left: 100px;
+            }
+            .pullovermancuerna{
+                height: 250px;
+                margin-left: 150px;
+            }
+            .repeticiones4b{
+                margin-left: 240px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+main{
+    .grupo1{
+        .ejercicio1pierna{
+            margin-top: 50px;
+            margin-left: 200px;
+            .extensioncuadriceps{
+                font-family: "Black Ops One", system-ui;
+                font-weight: 400;
+                font-style: normal; 
+            }
+            .extensiondecuadriceps{
+                height: 250px;
+                margin-left: 40px;
+            }
+            .repeticiones_1p{
+                margin-top: 10px;
+                margin-left: 70px;
+            }
+        }
+        .ejercicio2pierna{
+            margin-top: 50px;
+            margin-left: 450px;
+            .sentadillabarra{
+                font-family: "Black Ops One", system-ui;
+                font-weight: 400;
+                font-style: normal;
+                margin-left: 60px;
+            }
+            .repeticiones_2p{
+                margin-left: 150px;
+                margin-top: 10px;
+            }
+            .sentadilla{
+                height: 250px;
+                margin-left: 70px;
+            }
+        }
+    }
+    .grupo2{
+        .ejercicio3pierna{
+            margin-top: 50px;
+            .pesomuerto{
+                font-family: "Black Ops One", system-ui;
+                font-weight: 400;
+                font-style: normal;
+                margin-right: 200px;
+            }
+            .pesomuertomancuernas{
+                height: 250px;
+                margin-left: 40px;
+            }
+            .repeticiones_3p{
+                margin-left: 110px;
+                margin-top: 10px;
+            }
+        }
+        .ejercicio4pierna{
+            margin-top: 50px;
+            .prensa{
+                font-family: "Black Ops One", system-ui;
+                font-weight: 400;
+                font-style: normal;
+                margin-left: 90px;
+            }
+            .prensapierna{
+                height: 250px;
+                margin-right: 70px;
+            }
+            .repeticiones_4p{
+                margin-left: 40px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+
+.mainnosotros{
+    background-image: url(../img/arnold2.jpg);
+    height: 1200px;
+    background-size: cover;
+    .titulo2{
+        font-family: "Black Ops One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        margin-left: 35%;
+    }
+    .presentacion{
+        font-family: "Black Ops One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 70px;
+    }
+    .presentacion1{
+        font-family: "Black Ops One", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        margin-top: 100px;
+    }
+}
