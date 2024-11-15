@@ -74,7 +74,7 @@ main .contenedor2 {
   display: flex;
   flex-direction: row;
   margin-top: 120px;
-  margin-left: 200px;
+  margin-left: 80px;
 }
 .padre .hijo1 {
   padding-left: 100px;
@@ -84,7 +84,7 @@ main .contenedor2 {
   margin-top: 10px;
 }
 .padre .hijo2 {
-  padding-left: 300px;
+  padding-left: 120px;
   padding-bottom: 30px;
 }
 .padre .registro {
@@ -101,7 +101,7 @@ main .grupo1 {
 }
 main .grupo1 .ejercicio1 {
   margin-top: 50px;
-  margin-left: 300px;
+  margin-left: 105px;
 }
 main .grupo1 .ejercicio1 .dominadas {
   font-family: "Black Ops One", system-ui;
@@ -114,13 +114,13 @@ main .grupo1 .ejercicio1 .dominadasespalda {
 }
 main .grupo1 .ejercicio2 {
   margin-top: 60px;
-  margin-left: 600px;
+  margin-left: 370px;
 }
 main .grupo1 .ejercicio2 .remomancuerna {
   font-family: "Black Ops One", system-ui;
   font-weight: 400;
   font-style: normal;
-  margin-left: 100px;
+  margin-left: 190px;
 }
 main .grupo1 .ejercicio2 .remo1 {
   height: 200px;
@@ -149,7 +149,7 @@ main .grupo2 .ejercicio3 .remo2 {
   margin-left: 10px;
 }
 main .grupo2 .ejercicio3 .repeticiones2e {
-  margin-left: 45px;
+  margin-left: 48px;
 }
 main .grupo2 .ejercicio4 {
   margin-top: 50px;
@@ -158,15 +158,15 @@ main .grupo2 .ejercicio4 .jalones {
   font-family: "Black Ops One", system-ui;
   font-weight: 400;
   font-style: normal;
-  margin-left: 250px;
+  margin-left: 350px;
 }
 main .grupo2 .ejercicio4 .jalonesalpecho {
   height: 250px;
-  margin-left: 250px;
+  margin-left: 340px;
 }
 main .grupo2 .ejercicio4 .repeticiones3e {
   margin-top: 10px;
-  margin-left: 310px;
+  margin-left: 400px;
 }
 
 .jalonesalpecho {
@@ -175,7 +175,7 @@ main .grupo2 .ejercicio4 .repeticiones3e {
 
 main .grupo1 .ejercicio1pecho {
   margin-top: 50px;
-  margin-left: 300px;
+  margin-left: 120px;
 }
 main .grupo1 .ejercicio1pecho .pressbanca {
   font-family: "Black Ops One", system-ui;
@@ -184,23 +184,26 @@ main .grupo1 .ejercicio1pecho .pressbanca {
 }
 main .grupo1 .ejercicio1pecho .press {
   height: 250px;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 main .grupo1 .ejercicio2pecho {
   margin-top: 50px;
-  margin-left: 500px;
+  margin-left: 430px;
 }
 main .grupo1 .ejercicio2pecho .aperturamancuerna {
   font-family: "Black Ops One", system-ui;
   font-weight: 400;
   font-style: normal;
+  margin-left: 90px;
 }
 main .grupo1 .ejercicio2pecho .repeticiones1p {
-  margin-left: 150px;
+  margin-left: 100px;
   margin-top: 10px;
 }
 main .grupo1 .ejercicio2pecho .apertura {
   height: 250px;
-  margin-left: 70px;
+  margin-left: 40px;
 }
 main .grupo2 .ejercicio3pecho {
   margin-top: 50px;
@@ -209,7 +212,7 @@ main .grupo2 .ejercicio3pecho .crucespolea {
   font-family: "Black Ops One", system-ui;
   font-weight: 400;
   font-style: normal;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 main .grupo2 .ejercicio3pecho .cruces {
   height: 250px;
@@ -219,6 +222,7 @@ main .grupo2 .ejercicio3pecho .repeticiones2p {
 }
 main .grupo2 .ejercicio4pecho {
   margin-top: 50px;
+  margin-left: 250px;
 }
 main .grupo2 .ejercicio4pecho .flexiones {
   font-family: "Black Ops One", system-ui;
@@ -230,13 +234,13 @@ main .grupo2 .ejercicio4pecho .flexionesbrazos {
   height: 250px;
 }
 main .grupo2 .ejercicio4pecho .repeticiones3p {
-  margin-left: 50px;
+  margin-left: 100px;
   margin-top: 10px;
 }
 
 main .grupo1 .ejercicio1brazo {
   margin-top: 50px;
-  margin-left: 300px;
+  margin-left: 60px;
 }
 main .grupo1 .ejercicio1brazo .curlbicep {
   font-family: "Black Ops One", system-ui;
@@ -253,7 +257,7 @@ main .grupo1 .ejercicio1brazo .repeticiones1b {
 }
 main .grupo1 .ejercicio2brazo {
   margin-top: 50px;
-  margin-left: 500px;
+  margin-left: 350px;
 }
 main .grupo1 .ejercicio2brazo .bancoscott {
   font-family: "Black Ops One", system-ui;
@@ -276,14 +280,13 @@ main .grupo2 .ejercicio3brazo .extensiontriceps {
   font-family: "Black Ops One", system-ui;
   font-weight: 400;
   font-style: normal;
-  margin-left: 85px;
 }
 main .grupo2 .ejercicio3brazo .extension {
   height: 250px;
-  margin-left: 110px;
+  margin-left: 40px;
 }
 main .grupo2 .ejercicio3brazo .repeticiones3b {
-  margin-left: 140px;
+  margin-left: 70px;
 }
 main .grupo2 .ejercicio4brazo {
   margin-top: 50px;
@@ -292,51 +295,52 @@ main .grupo2 .ejercicio4brazo .pullover {
   font-family: "Black Ops One", system-ui;
   font-weight: 400;
   font-style: normal;
-  margin-left: 100px;
+  margin-left: 170px;
 }
 main .grupo2 .ejercicio4brazo .pullovermancuerna {
   height: 250px;
-  margin-left: 150px;
+  margin-left: 250px;
 }
 main .grupo2 .ejercicio4brazo .repeticiones4b {
-  margin-left: 240px;
+  margin-left: 345px;
   margin-top: 10px;
 }
 
 main .grupo1 .ejercicio1pierna {
   margin-top: 50px;
-  margin-left: 200px;
+  margin-left: 80px;
 }
 main .grupo1 .ejercicio1pierna .extensioncuadriceps {
   font-family: "Black Ops One", system-ui;
   font-weight: 400;
   font-style: normal;
+  margin-left: 63px;
 }
 main .grupo1 .ejercicio1pierna .extensiondecuadriceps {
   height: 250px;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 main .grupo1 .ejercicio1pierna .repeticiones_1p {
   margin-top: 10px;
-  margin-left: 70px;
+  margin-left: 40px;
 }
 main .grupo1 .ejercicio2pierna {
   margin-top: 50px;
-  margin-left: 450px;
+  margin-left: 300px;
 }
 main .grupo1 .ejercicio2pierna .sentadillabarra {
   font-family: "Black Ops One", system-ui;
   font-weight: 400;
   font-style: normal;
-  margin-left: 60px;
+  margin-left: 90px;
 }
 main .grupo1 .ejercicio2pierna .repeticiones_2p {
-  margin-left: 150px;
+  margin-left: 100px;
   margin-top: 10px;
 }
 main .grupo1 .ejercicio2pierna .sentadilla {
   height: 250px;
-  margin-left: 70px;
+  margin-left: 50px;
 }
 main .grupo2 .ejercicio3pierna {
   margin-top: 50px;
@@ -362,14 +366,14 @@ main .grupo2 .ejercicio4pierna .prensa {
   font-family: "Black Ops One", system-ui;
   font-weight: 400;
   font-style: normal;
-  margin-left: 90px;
+  margin-left: 110px;
 }
 main .grupo2 .ejercicio4pierna .prensapierna {
   height: 250px;
-  margin-right: 70px;
+  margin-left: 70px;
 }
 main .grupo2 .ejercicio4pierna .repeticiones_4p {
-  margin-left: 40px;
+  margin-left: 105px;
   margin-top: 10px;
 }
 
